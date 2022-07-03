@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    background-image: url("./photos/pexels-flo-dahm-699459.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 100px;
+    width: 80px;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
