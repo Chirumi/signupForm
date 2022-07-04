@@ -1,13 +1,21 @@
 body {
     height: 100vh;
+    margin: 0;
+    padding: 0;
     background-image: url("./photos/pexels-flo-dahm-699459.jpg");
-    background-size: 700px;
+    background-size: 35vw 100vh;
     background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+
 }
 
 img {
     height: 100px;
     width: 80px;
+    position: absolute;
 }
 
 .left {
@@ -17,5 +25,7 @@ img {
 .right {
     display: flex;
     flex-direction: column;
-    background-color: red;
+    height: 100vh;
+    width: 65vw;
+    margin-left: 35vw;
 }

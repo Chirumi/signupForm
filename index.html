@@ -9,41 +9,45 @@
     <title>Sign Up</title>
 </head>
 <body>
-    <div class="left">
-        <img src="./photos/odin-lined.png" alt="Icon of Odin" class="odinIcon">
-    </div>
+    <div class="content">
+        <div class="left">
+            <img src="./photos/odin-lined.png" alt="Icon of Odin" class="odinIcon">
+        </div>
 
-    <div class="right">
-        <h2>This is not a real online service! You know you need something like this in your life to help you
-        realize your deepest dreams. Sign up <em>now</em> to get started</h2>
-        <h2>You <em>know</em> you want to.</h2>
+        <div class="right">
+            <div class="headText">
+                <h2>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up <em>now</em> to get started</h2>
+                <h2>You <em>know</em> you want to.</h2>
+            </div>
+            
+            <form action="" class="formBox">
+                <fieldset>
+                    <h2>Let's do this!</h2>
 
-        <form action="" class="formBox">
-            <fieldset>
-                <h2>Let's do this!</h2>
+                    <input type="text" id="first_name" name="first_name">
+                    <label for="first_name">FIRST NAME</label>
+                    
+                    <input type="text" id="last_name" name="last_name">
+                    <label for="last_name">LAST NAME</label>
+                    
+                    <input type="email" id="email" name="email">
+                    <labe for="email">EMAIL</label>
+                    
+                    <input type="number" id="phone_number" name="phone_number">
+                    <label for="phone_number">PHONE NUMBER</label>
+                    
+                    <input type="text" id="password" name="password">
+                    <label for="password">PASSWORD</label>
+                    
+                    <input type="password" id="confirm_password" name="confirm_password">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                </fieldset>
+            </form>
 
-                <input type="text">
-                <label>FIRST NAME</label>
-                
-                <input type="text">
-                <label>LAST NAME</label>
-                
-                <input type="text">
-                <label>EMAIL</label>
-                
-                <input type="text">
-                <label>PHONE NUMBER</label>
-                
-                <input type="text">
-                <label>PASSWORD</label>
-                
-                <input type="text">
-                <label>CONFIRM PASSWORD</label>
-            </fieldset>
-        </form>
-
-        <button>Create Account</button>
-        <div>Already have an account? <a href="">Log in</a></div>
+            <button>Create Account</button>
+            <div>Already have an account? <a href="">Log in</a></div>
+        </div>
     </div>
 </body>
 </html>
