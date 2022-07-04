@@ -2,6 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    list-style: none;
     background-image: url("./photos/pexels-flo-dahm-699459.jpg");
     background-size: 35vw 100vh;
     background-repeat: no-repeat;
@@ -36,5 +37,5 @@ img {
 .secondLine,
 .thirdLine {
     display: flex;
-    flex-direction: row;
+    gap: 80px;
 }
