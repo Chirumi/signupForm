@@ -28,4 +28,13 @@ img {
     height: 100vh;
     width: 65vw;
     margin-left: 35vw;
+    justify-content: center;
+    gap: 50px;
+}
+
+.firstLine,
+.secondLine,
+.thirdLine {
+    display: flex;
+    flex-direction: row;
 }

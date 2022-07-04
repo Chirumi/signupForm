@@ -20,33 +20,42 @@
                 realize your deepest dreams. Sign up <em>now</em> to get started</h2>
                 <h2>You <em>know</em> you want to.</h2>
             </div>
-            
+
             <form action="" class="formBox">
                 <fieldset>
                     <h2>Let's do this!</h2>
 
-                    <input type="text" id="first_name" name="first_name">
-                    <label for="first_name">FIRST NAME</label>
+                    <div class="firstLine">
+                        <label for="first_name"><div>FIRST NAME</div></label>
+                        <input type="text" id="first_name" name="first_name">
+                            
+                        <label for="last_name"><div>LAST NAME</div></label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                        
+                    <div class="secondLine">
+                        <label for="email"><div>EMAIL</div></label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="phone_number"><div>PHONE NUMBER</div></label>
+                        <input type="tel" id="phone_number" name="phone_number">
+                    </div>
                     
-                    <input type="text" id="last_name" name="last_name">
-                    <label for="last_name">LAST NAME</label>
-                    
-                    <input type="email" id="email" name="email">
-                    <labe for="email">EMAIL</label>
-                    
-                    <input type="number" id="phone_number" name="phone_number">
-                    <label for="phone_number">PHONE NUMBER</label>
-                    
-                    <input type="text" id="password" name="password">
-                    <label for="password">PASSWORD</label>
-                    
-                    <input type="password" id="confirm_password" name="confirm_password">
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <div class="thirdLine">
+                        <label for="password"><div>PASSWORD</div></label>
+                        <input type="text" id="password" name="password">
+                        
+                        <label for="confirm_password"><div>CONFIRM PASSWORD</div></label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
                 </fieldset>
+
+                <button type="submit">Create Account</button>
             </form>
 
-            <button>Create Account</button>
-            <div>Already have an account? <a href="">Log in</a></div>
+            <div class="bottomText">
+                <div>Already have an account? <a href="">Log in</a></div>
+            </div>
         </div>
     </div>
 </body>
