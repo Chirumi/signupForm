@@ -10,7 +10,7 @@ body {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(39, 39, 39);
 }
 
@@ -19,9 +19,24 @@ h2 {
 }
 
 img {
-    height: 100px;
-    width: 80px;
+    height: 150px;
+    width: 120px;
     position: absolute;
+    margin-top: 140px;
+    margin-left: 5vw;
+}
+
+.michiru {
+    font-size: 70px;
+    position: absolute;
+    margin-top: 135px;
+    background:rgba(0,0,0,.3);
+    color: white;
+    max-width: 40vw;
+    padding-left: 14.12vw;
+    padding-right: 14.12vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .left {
@@ -31,7 +46,7 @@ img {
 .right {
     display: flex;
     flex-direction: column;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(242, 242, 242);
     height: 100vh;
     margin-left: 40vw;
     justify-content: center;
@@ -90,7 +105,7 @@ input:focus {
     outline: none;
     border-width: 1px;
     border-color: blue;
-    box-shadow: 2px 2px 4px rgb(206, 205, 205);
+    box-shadow: 2px 2px 4px rgb(201, 200, 200);
 }
 
 input:invalid {
@@ -108,6 +123,7 @@ button {
     border-style: none;
     background-color: #3882f6;
     color: white;
+    box-shadow: 3px 3px 4px rgb(201, 200, 200);
 }
 
 .bottomText {
@@ -134,5 +150,13 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+.advice {
+    font-size: 11px;
+}
+
+.confirmPass {
+    margin-bottom: 25px;
 }
 
