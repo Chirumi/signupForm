@@ -1,1 +1,3 @@
-// To implement: Dark/Light mode, Interactive button, Box shadows, Tick or Cross if input is correct/wrong
+const password1 = document.querySelector(".pw")
+const password2 = document.querySelector(".pwC")
+

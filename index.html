@@ -18,7 +18,7 @@
             <div class="headText">
                 <div class="textBox">
                     <h2>This is not a real online service! You know you need something like this in your life to help you
-                    realize your deepest dreams. Sign up <em>now</em> to get started</h2>
+                    realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
                     <h2>You <em>know</em> you want to.</h2>
                 </div>
             </div>
@@ -32,14 +32,14 @@
                             <div class="formLabel">
                                 <label for="first_name"><div>FIRST NAME</div></label>
                             </div>
-                            <input type="text" id="first_name" name="first_name">
+                            <input type="text" id="first_name" name="first_name" required maxlength="36">
                         </li>
                             
                         <li>
                             <div class="formLabel">
                                 <label for="last_name"><div>LAST NAME</div></label>
                             </div>
-                            <input type="text" id="last_name" name="last_name">
+                            <input type="text" id="last_name" name="last_name" required maxlength="36">
                         </li>
                     </div>
                         
@@ -48,13 +48,13 @@
                             <div class="formLabel">
                                 <label for="email"><div>EMAIL</div></label>
                             </div>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </li>
                         <li>
                             <div class="formLabel">
                                 <label for="phone_number"><div>PHONE NUMBER</div></label>
                             </div>
-                            <input type="tel" id="phone_number" name="phone_number">
+                            <input type="tel" id="phone_number" name="phone_number" pattern="\d*" required>
                         </li>
                     </div>
                     
@@ -62,15 +62,14 @@
                         <li>
                             <div class="formLabel">
                                 <label for="password"><div>PASSWORD</div></label>
-
                             </div>
-                            <input type="text" id="password" name="password">
+                            <input type="password" id="password" name="password1" required>
                         </li>
                         <li>
                             <div class="formLabel">
-                                <label for="confirm_password"><div>CONFIRM PASSWORD</div></label>
+                                <label for="confirm_password" ><div>CONFIRM PASSWORD</div></label>
                             </div>
-                            <input type="password" id="confirm_password" name="confirm_password">
+                            <input type="password" id="confirm_password" name="paswword2" required>
                         </li>
                     </div>
                 </div>
