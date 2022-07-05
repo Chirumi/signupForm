@@ -11,6 +11,7 @@ body {
 
 h2 {
     font-size: 27px;
+    color: rgb(39, 39, 39);
 }
 
 .content {
@@ -67,11 +68,20 @@ button {
 
 li {
     font-size: 16px;
+    color: rgb(26, 26, 26);
 }
 
 input {
-    height: 30px;
-    width: 300px;
-    font-size: 14px;
+    height: 32px;
+    width: 310px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #d2d3d8;
+    border-width: 1px;
+    font-size: 15px;
     padding-left: 10px;
+}
+
+.formLabel {
+    margin-bottom: 7px;
 }
